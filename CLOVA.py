@@ -13,7 +13,7 @@ for idx, row in rubric_df.iterrows():
 
 # CLOVA API credentials
 API_URL = "https://clovastudio.stream.ntruss.com/v1/openai"
-API_KEY = "nv-e8385cb769bb409da5304bcd2b0ca666dUCt"  # Replace if you regenerate it
+API_KEY = ${{ secrets.API_KEY }}
 
 # Initialize CLOVA-compatible OpenAI client
 client = OpenAI(
